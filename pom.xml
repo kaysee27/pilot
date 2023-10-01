@@ -39,6 +39,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--For dynamic html rendering-->
+        <!--Shift all resources/static .html to resources/templates folder -->
+        <!--No need to use .html while returning the view-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

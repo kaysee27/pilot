@@ -11,9 +11,4 @@ public class PilotController {
         return true;
     }
 
-    @GetMapping("/")
-    public String getMessage() {
-        return "Welcome!!";
-    }
-
 }
